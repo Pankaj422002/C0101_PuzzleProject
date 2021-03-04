@@ -141,3 +141,6 @@ section+h1{
 h1 {
     font-weight: 900;
 }
+fieldset{
+    margin-bottom: 60px;
+}
