@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navBar{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: #F7B733;
+}
+
+.navItems{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 5px;
+}
+
+.navItems li{
+    list-style: none;
+    margin: 0px 10px;
+    padding: 0px 10px;
+}
+
+.btn{
+    outline: none;
+    padding: 10px;
+    color: #F78733;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.btn a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.active, .btn:hover{
+    color: white;
+    background-color: #F78733;
+}
+
+.logoSearch{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img{
+    margin-right: 10px;
+}
+
+.Search{
+    width: 2000px;
+    margin: 0px 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 5%;
+    outline-color: #F78733;
+}
+
+
+ /* Hero section */
+
+ .hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 30px;
+    border: solid 1px #05386B; 
+    transition: transform 2s linear;
+    background-color: #800080;
+    color: white;
+ }
+
+.hero:hover{
+    box-shadow: 2px 3px 3px 3px #05386B;
+    transform: translateX(-10px);
+}
+
+.hero_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.hero_2+h1, .hero div{
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+}
+
+.hero img{
+    width: 50%;
+    height: 350px;
+}
+
+.heroText{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+/* Card */
+
+.Card{
+    border: solid 1px #05386B;
+    width: 20%;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #4E4E50;
+    color: whitesmoke;
+}
+
+
+.Cards{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 20px;
+}
+
+.flip_img{
+    margin: 10px;
+}
+
+.flip_img img{
+    width: 100%
+}
+
+section+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+h1 {
+    font-weight: 900;
+}
